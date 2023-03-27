@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'TAN-MON-CHERI';
-    src: url('../fonts/tan-mon-cheri/webfont/TAN\ -\ MON\ CHERI.woff');
-    src: url('../fonts/tan-mon-cheri/webfont/TAN\ -\ MON\ CHERI.woff2');
+    src: url('../fonts/tan-mon-cheri/TAN\ -\ MON\ CHERI.woff');
+    src: url('../fonts/tan-mon-cheri/TAN\ -\ MON\ CHERI.woff2');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Quicksand:wght@300;400&display=swap');
@@ -17,4 +17,44 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     background-color: #fffcf6;
+    color: #6d5a4e;
 }
+
+h1 {
+    font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
+}
+
+/* ----- Navbar and logo -----*/
+
+#navbar {
+    background-color: #6d5a4e;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#nav-menu li {
+    display: inline-block;
+    margin: 0 45px;
+}
+
+#nav-menu li a {
+    color: #fbf7eb;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #e88ea9;
+}
+
+.active {
+    border-bottom: 1px solid #92b4a0;
+}
+
