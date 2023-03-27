@@ -91,3 +91,22 @@ h1 {
     text-transform: uppercase;
     padding-top: 5px;
 }
+
+#cover-text hr {
+    border-top: 1px solid #6d5a4e;
+    width: 44%;
+    margin-top: 10px;
+}
+
+.hr-left {
+    float: left;
+}
+
+.hr-right {
+    float: right;
+}
+
+#cover-text i {
+    font-size: 150%;
+    color: #6d5a4e
+}
