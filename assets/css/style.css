@@ -24,6 +24,7 @@ h1 {
     font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
 }
 
+
 /* ----- Navbar and logo -----*/
 
 #navbar {
@@ -109,4 +110,26 @@ h1 {
 #cover-text i {
     font-size: 150%;
     color: #6d5a4e
+}
+
+
+/* ----- fixed/sticky social media sidebar ----- */
+
+#fixed-socials {
+    position: fixed;
+    top: 39%;
+    left: 0.85%;
+    list-style: none;
+    line-height: 2;
+}
+
+#fixed-socials i {
+    color: #6d5a4e;
+    font-size: 120%;
+}
+
+#fixed-socials i:hover {
+    color: rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #6d5a4e;
+    padding-bottom: 5px;
 }
