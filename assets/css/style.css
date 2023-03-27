@@ -20,7 +20,7 @@ body {
     color: #6d5a4e;
 }
 
-h1 {
+h1, h3 {
     font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
 }
 
@@ -132,4 +132,26 @@ h1 {
     color: rgba(0, 0, 0, 0.4);
     border-bottom: 2px solid #6d5a4e;
     padding-bottom: 5px;
+}
+
+
+/* ----- welcome section ----- */
+
+#welcome {
+    height: 800px;
+}
+
+.container {
+    margin: 100px 0 50px;
+    display: flex;
+}
+
+.left-column {
+    width: 40%;
+    background-image: url('../images/pink-textured-background.jpg');
+}
+
+.right-column {
+    width: 60%;
+    padding: 30px 90px 30px 140px;
 }
