@@ -72,3 +72,22 @@ h1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
+#cover-text {
+    text-align: center;
+    letter-spacing: 4px;
+    top: 270px;
+    right: 150px;
+    position: absolute;
+}
+
+#cover-text h1 {
+    font-size: 300%;
+}
+
+#cover-text h2 {
+    font-size: 120%;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
