@@ -62,3 +62,13 @@ h1 {
     border-bottom: 1px solid #92b4a0;
 }
 
+
+/* ----- banner ----- */
+
+#banner {
+    height: 500px;
+    background-image: url('../images/BeigeShadowBanner.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
