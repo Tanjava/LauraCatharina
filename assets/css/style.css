@@ -221,4 +221,30 @@ p {
     box-shadow: 2px 0px 8px 0px rgba(128,128,128,1);;
 }
 
+
 /* ----- Location ----- */
+
+#location {
+    height: 170px;
+    text-align: center;
+    margin: 75px 100px 0;
+}
+
+#location hr {
+    border-top: 1px solid #6d5a4e;
+    width: 47.5%;
+    margin-top: 15px;
+}
+
+.fi-rs-marker {
+    font-size: 200%;
+}
+
+#location-content {
+    margin: 20px auto;
+}
+
+#location-content p {
+    margin-top: 10px;
+    font-size: 110%;
+}
