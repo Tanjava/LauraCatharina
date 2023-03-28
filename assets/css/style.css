@@ -138,7 +138,7 @@ h1, h3 {
 /* ----- welcome section ----- */
 
 #welcome {
-    height: 800px;
+    min-height: 800px;
 }
 
 .container {
@@ -146,12 +146,25 @@ h1, h3 {
     display: flex;
 }
 
-.left-column {
+#left-welcome-column {
     width: 40%;
     background-image: url('../images/pink-textured-background.jpg');
+    min-height: 650px;
+    display:flex;
+    align-items: center;
 }
 
-.right-column {
+#right-welcome-column {
     width: 60%;
     padding: 30px 90px 30px 140px;
+}
+
+#welcome-image {
+    margin: 0 -55px 0 auto;
+}
+
+#left-welcome-column img {
+    width: 401px;
+    height: 535px;
+    box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
 }
