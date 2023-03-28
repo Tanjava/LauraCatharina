@@ -80,6 +80,7 @@ p {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #cover-text {
@@ -143,14 +144,14 @@ p {
 }
 
 
-/* ----- welcome section ----- */
+/* ----- welcome ----- */
 
 #welcome {
-    min-height: 700px;
+    min-height: 650px;
 }
 
 .container {
-    margin: 100px 0 50px;
+    margin-top: 100px;
     display: flex;
 }
 
@@ -188,4 +189,21 @@ p {
 #right-welcome-column p {
     font-size: 120%;
     margin-top: 30px;  
+}
+
+
+/* ----- work together ----- */
+
+#work-together {
+    min-height: 700px;
+}
+
+#left-wt-column {
+    width: 60%;
+    padding: 30px 140px 30px 80px;
+}
+
+#right-wt-column {
+    width: 40%;
+    background-image: url(../images/green-textured-background.jpg);
 }
