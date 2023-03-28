@@ -211,7 +211,7 @@ hr {
 #right-welcome-column {
     width: 60%;
     text-align: center;
-    padding: 30px 90px 30px 140px;
+    padding: 30px 100px 30px 140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,12 +226,12 @@ hr {
 }
 
 #right-welcome-column h3,
-#left-wt-column h3 {
+#left-wt-column h3, #right-about-column h3 {
     font-size: 200%;
 }
 
 #right-welcome-column p,
-#left-wt-column p {
+#left-wt-column p, #right-about-column p {
     font-size: 120%;
     margin-top: 30px;
 }
@@ -245,7 +245,7 @@ hr {
 #left-wt-column {
     width: 60%;
     text-align: center;
-    padding: 30px 140px 30px 80px;
+    padding: 30px 140px 30px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,28 +344,30 @@ footer a:hover,
 /* ----- about ----- */
 
 #about {
-    margin: 0 75px;
+    min-height: 550px;
+    margin: 0 100px;
 }
 
 #left-about-column {
-    width: 40%;
-    min-height: 650px;
+    width: 35%;
 }
 
 #right-about-column {
-    width: 60%;
+    width: 65%;
+    text-align: center;
 }
 
-#left-about-column div img {
-    width: 352px;
-    height: 434px;
-    transform-origin: left top;
-    margin-top: 30px;
+#left-about-column div {
+    width: 320px;
+    height: 400px;
+    background-image: url('../images/pink-textured-background.jpg');
+    margin: 50px 50px 50px 0;
 }
 
-#left-about-column>img {
-    width: 350px;
-    height: 438px;
-    margin: -403px 28px 0 37px;
-    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
+#left-about-column img {
+    width: 320px;
+    height: 400px;
+    float: left;
+    margin: 30px 30px 0 30px;
+    box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
 }
