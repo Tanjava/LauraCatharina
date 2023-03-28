@@ -32,8 +32,16 @@ p {
     line-height: 1.5;
 }
 
+hr {
+    border-top: 1px solid #6d5a4e;
+}
 
-/* ----- Navbar and logo -----*/
+.underline {
+    border-bottom: 2px solid #92B4A0;
+}
+
+
+/* ----- Navigation bar -----*/
 
 #navbar {
     background-color: #6d5a4e;
@@ -41,6 +49,7 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    letter-spacing: 2px;
 }
 
 #logo {
@@ -49,7 +58,6 @@ p {
 
 #nav-menu {
     list-style-type: none;
-    letter-spacing: 2px;
 }
 
 #nav-menu li {
@@ -103,7 +111,6 @@ p {
 }
 
 #cover-text hr {
-    border-top: 1px solid #6d5a4e;
     width: 44%;
     margin-top: 10px;
 }
@@ -222,7 +229,7 @@ p {
 }
 
 
-/* ----- Location ----- */
+/* ----- location ----- */
 
 #location {
     height: 170px;
@@ -231,7 +238,6 @@ p {
 }
 
 #location hr {
-    border-top: 1px solid #6d5a4e;
     width: 47.5%;
     margin-top: 15px;
 }
@@ -247,4 +253,44 @@ p {
 #location-content p {
     margin-top: 10px;
     font-size: 110%;
+}
+
+
+/* ----- footer ----- */
+
+footer {
+    background-color: #6d5a4e;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: #fbf7eb;
+    font-size: 85%;
+    letter-spacing: 2px;
+}
+
+#footer-socials i {
+    font-size: 150%;
+}
+
+#footer-socials {
+    list-style-type: none;
+}
+
+#footer-socials li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+footer a, .underline {
+    color: #fbf7eb;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+footer a:hover, .underline:hover {
+    border-bottom: 2px solid #e88ea9;
 }
