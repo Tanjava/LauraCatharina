@@ -144,7 +144,9 @@ p {
 }
 
 
-/* ----- welcome ----- */
+/* ----- Main ----- */
+
+/* welcome section */
 
 #welcome {
     min-height: 650px;
@@ -172,27 +174,24 @@ p {
     justify-content: center;
 }
 
-#welcome-image {
-    margin: 0 -55px 0 auto;
-}
-
 #left-welcome-column img {
     width: 401px;
     height: 535px;
+    float: right;
+    margin: 0 -55px 0 auto;
     box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
 }
 
-#right-welcome-column h3 {
+#right-welcome-column h3, #left-wt-column h3 {
     font-size: 200%;
 }
 
-#right-welcome-column p {
+#right-welcome-column p, #left-wt-column p {
     font-size: 120%;
     margin-top: 30px;  
 }
 
-
-/* ----- work together ----- */
+/*  work together section  */
 
 #work-together {
     min-height: 700px;
@@ -200,7 +199,11 @@ p {
 
 #left-wt-column {
     width: 60%;
+    text-align: center;
     padding: 30px 140px 30px 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #right-wt-column {
@@ -211,12 +214,10 @@ p {
     align-items: center;
 }
 
-#wt-image {
-    margin: 0 auto 0 -55px;
-}
-
-#wt-image img {
+#right-wt-column img {
     width: 401px;
     height: 535px;
+    margin: 0 auto 0 -55px;
     box-shadow: 2px 0px 8px 0px rgba(128,128,128,1);;
 }
+
