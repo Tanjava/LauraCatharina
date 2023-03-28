@@ -226,12 +226,14 @@ hr {
 }
 
 #right-welcome-column h3,
-#left-wt-column h3, #right-about-column h3 {
+#left-wt-column h3,
+#right-about-column h3 {
     font-size: 200%;
 }
 
 #right-welcome-column p,
-#left-wt-column p, #right-about-column p {
+#left-wt-column p,
+#right-about-column p {
     font-size: 120%;
     margin-top: 30px;
 }
@@ -370,4 +372,26 @@ footer a:hover,
     float: left;
     margin: 30px 30px 0 30px;
     box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
+}
+
+/* ------ Readings ----- */
+
+#readings {
+    margin: 0 100px 100px;
+}
+
+.container {
+    margin-top: 75px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div {
+    width: 33%;
+    padding: 30px 30px 0;
+    text-align: center;
+}
+
+#readings p {
+    margin-top: 20px;
 }
