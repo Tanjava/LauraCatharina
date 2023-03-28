@@ -40,6 +40,20 @@ hr {
     border-bottom: 2px solid #92B4A0;
 }
 
+.button {
+    text-decoration: none;
+    background-color: transparent;
+    color:#6d5a4e;
+    border: 1px solid #6d5a4e;
+    line-height: 1.5;
+    font-size: 125%;
+    padding: 12px 30px;
+}
+
+.button:hover {
+    background-color: #6d5a4e;
+    color: #fbf7eb;
+}
 
 /* ----- Navigation bar -----*/
 
@@ -211,6 +225,10 @@ hr {
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#left-wt-column a {
+    margin: 50px auto 0;
 }
 
 #right-wt-column {
