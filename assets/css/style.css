@@ -206,4 +206,17 @@ p {
 #right-wt-column {
     width: 40%;
     background-image: url(../images/green-textured-background.jpg);
+    min-height: 650px;
+    display:flex;
+    align-items: center;
+}
+
+#wt-image {
+    margin: 0 auto 0 -55px;
+}
+
+#wt-image img {
+    width: 401px;
+    height: 535px;
+    box-shadow: 2px 0px 8px 0px rgba(128,128,128,1);;
 }
