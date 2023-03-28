@@ -20,7 +20,8 @@ body {
     color: #6d5a4e;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
 }
 
@@ -43,7 +44,7 @@ hr {
 .button {
     text-decoration: none;
     background-color: transparent;
-    color:#6d5a4e;
+    color: #6d5a4e;
     border: 1px solid #6d5a4e;
     line-height: 1.5;
     font-size: 125%;
@@ -85,7 +86,7 @@ hr {
     text-decoration: none;
     line-height: 40px;
     padding-bottom: 3px;
-    margin: 0 45px;    
+    margin: 0 45px;
 }
 
 #nav-menu li li a {
@@ -203,7 +204,7 @@ hr {
     width: 40%;
     background-image: url('../images/pink-textured-background.jpg');
     min-height: 650px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -211,7 +212,7 @@ hr {
     width: 60%;
     text-align: center;
     padding: 30px 90px 30px 140px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -221,16 +222,18 @@ hr {
     height: 535px;
     float: right;
     margin: 0 -55px 0 auto;
-    box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
+    box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
 }
 
-#right-welcome-column h3, #left-wt-column h3 {
+#right-welcome-column h3,
+#left-wt-column h3 {
     font-size: 200%;
 }
 
-#right-welcome-column p, #left-wt-column p {
+#right-welcome-column p,
+#left-wt-column p {
     font-size: 120%;
-    margin-top: 30px;  
+    margin-top: 30px;
 }
 
 /*  work together section  */
@@ -243,7 +246,7 @@ hr {
     width: 60%;
     text-align: center;
     padding: 30px 140px 30px 80px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -256,7 +259,7 @@ hr {
     width: 40%;
     background-image: url(../images/green-textured-background.jpg);
     min-height: 650px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -264,7 +267,8 @@ hr {
     width: 401px;
     height: 535px;
     margin: 0 auto 0 -55px;
-    box-shadow: 2px 0px 8px 0px rgba(128,128,128,1);;
+    box-shadow: 2px 0px 8px 0px rgba(128, 128, 128, 1);
+    ;
 }
 
 
@@ -324,12 +328,44 @@ footer p {
     margin: 0 30px;
 }
 
-footer a, .underline {
+footer a,
+.underline {
     color: #fbf7eb;
     text-decoration: none;
     padding-bottom: 5px;
 }
 
-footer a:hover, .underline:hover {
+footer a:hover,
+.underline:hover {
     border-bottom: 2px solid #e88ea9;
+}
+
+
+/* ----- about ----- */
+
+#about {
+    margin: 0 75px;
+}
+
+#left-about-column {
+    width: 40%;
+    min-height: 650px;
+}
+
+#right-about-column {
+    width: 60%;
+}
+
+#left-about-column div img {
+    width: 352px;
+    height: 434px;
+    transform-origin: left top;
+    margin-top: 30px;
+}
+
+#left-about-column>img {
+    width: 350px;
+    height: 438px;
+    margin: -403px 28px 0 37px;
+    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
 }
