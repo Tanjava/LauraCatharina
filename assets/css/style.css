@@ -26,8 +26,9 @@ h3 {
 }
 
 h3 {
+    text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 250%;
+    font-size: 140%;  
 }
 
 p {
@@ -145,9 +146,9 @@ hr {
 }
 
 #cover-text h2 {
+    font-family: 'Quicksand', sans-serif;
     font-size: 120%;
     font-weight: normal;
-    text-transform: uppercase;
     padding-top: 5px;
 }
 
@@ -392,20 +393,25 @@ footer a:hover,
 
 #contact {
     height: 600px;
-    margin: 50px 75px;
+    margin: 100px 75px;
+}
+
+#contact h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contact-section {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
 }
 
 .form-section {
     width: 50%;
-}
-
-.contact-form {
     padding: 0 50px;
     text-align: center;
 }
+
  fieldset {
     border: none;
  }
@@ -445,12 +451,12 @@ footer a:hover,
     width: 50%;
 }
 
-#contact-text h3 {
-    text-align: center;
-}
-
 #contact-text p {
     font-size: 100%;
+}
+
+#contact-text p span {
+    font-size: 70%;
 }
 
 #contact-text ul {
@@ -458,5 +464,15 @@ footer a:hover,
 }
 
 #contact-text li {
-    line-height: 1.5;
+    line-height: 2;
+    padding-left: 30px;
+}
+
+#contact-text li i {
+    font-size: 110%;
+    margin-right: 10px;
+}
+
+.example {
+    padding-top: 20px;
 }
