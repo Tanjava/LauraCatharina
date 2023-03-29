@@ -76,7 +76,35 @@
     </section>
 
     <section id="contact">
-        <div>
+        <div class="form-section">
+            <form class="contact-form" action="#">
+
+                <fieldset>
+
+                    <input id="fname" class="text-input" type="text" name="name" placeholder="First Name" required>
+                    <input id="lname" class="text-input" type="text" name="name" placeholder="Last Name" required>
+                    <input id="email" class="text-input" type="email" name="email_address" placeholder="Email Address"
+                        required>
+                    <select id="question" name="question" required>
+                        <option value="question">I have a question about</option>
+                        <option value="astro-reading">Astrology Reading</option>
+                        <option value="collab">Collaboration</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input id="subject" class="text-input" type="text" name="subject" placeholder="Subject" required>
+                    <input id="message" class="text-input" type="text" name="message" placeholder="Message" required>
+
+                    <input class="button" type="submit" value="Get in touch!">
+
+                </fieldset>
+            </form>
+        </div>
+        <div class="contact-text">
+            If you have any questions, please feel free to send me a message below and I'll get back to
+                you asap!
+        </div>
+        
+        <!-- <div>
             <p>If you have any questions, please feel free to send me a message below and I'll get back to
                 you asap!
             </p>
@@ -99,11 +127,11 @@
                     <input id="subject" class="text-input" type="text" name="subject" placeholder="Subject" required>
                     <input id="message" class="text-input" type="text" name="message" placeholder="Message" required>
 
-                    <input class="submit-button" type="submit" value="Get in touch!">
+                    <input class="button" type="submit" value="Get in touch!">
 
                 </fieldset>
             </form>
-        </div>
+        </div> -->
     </section>
 
 
