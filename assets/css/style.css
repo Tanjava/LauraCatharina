@@ -27,11 +27,14 @@ h3 {
 
 h3 {
     letter-spacing: 2px;
+    font-weight: 250%;
 }
 
 p {
     line-height: 1.5;
     letter-spacing: 1px;
+    font-size: 115%;
+    margin-top: 30px;
 }
 
 hr {
@@ -226,19 +229,6 @@ hr {
     box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
 }
 
-#right-welcome-column h3,
-#left-wt-column h3,
-#right-about-column h3, #readings h3 {
-    font-size: 150%;
-}
-
-#right-welcome-column p,
-#left-wt-column p,
-#right-about-column p, #readings p {
-    font-size: 110%;
-    margin-top: 30px;
-}
-
 /*  work together section  */
 
 #work-together {
@@ -378,21 +368,25 @@ footer a:hover,
 /* ------ Readings ----- */
 
 #readings {
-    margin: 0 100px 100px;
+    margin: 100px 75px;
 }
 
-.container {
-    margin-top: 75px;
+.row {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.container div {
-    width: 33%;
-    padding: 30px 50px 0;
     text-align: center;
 }
 
-#readings p {
+.row div {
+    padding: 30px;
+}
+
+.row div p {
     margin-bottom: 50px;
 }
+
+
+
+/* ----- Contact ----- */
+
