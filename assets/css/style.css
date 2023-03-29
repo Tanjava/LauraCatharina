@@ -391,10 +391,11 @@ footer a:hover,
 /* ----- Contact ----- */
 
 #contact {
-    height: 500px;
-    margin: 100px 75px;
+    height: 600px;
+    margin: 50px 75px;
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .form-section {
@@ -440,42 +441,22 @@ footer a:hover,
     margin-top:30px;
 }
 
-/* #contact {
-    height: 550px;
-    margin: 100px;
-    display: flex;
+#contact-text {
+    width: 50%;
+}
+
+#contact-text h3 {
     text-align: center;
 }
 
-.contact-form {
-    padding: 0 50px;
-}
-
-fieldset {
-    border: 0 none;
-}
-
-
-.text-input, #question {
-    background: transparent;
+#contact-text p {
     font-size: 100%;
-    color: #6d5a4e;
-    width: 90%;
-    height: 50px;
-    margin: 5px 0 20px;
-    border: none;
-    border-bottom: 2px solid #92B4A0;
 }
 
-#fname {
-    width: 45%;
+#contact-text ul {
+   list-style-type: none; 
 }
 
-#lname {
-    width: 40%;
-    float: right;
+#contact-text li {
+    line-height: 1.5;
 }
-
-.text-input:hover {
-    border-color: #e88ea9;
-} */
