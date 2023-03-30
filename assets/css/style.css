@@ -281,12 +281,17 @@ hr {
     background-size: cover;
     background-position: bottom;
     margin-top: 150px;
+    width: 100%;
 }
 
 .review-row {
     display: flex;
     min-height: 250px;
     padding: 30px 0;
+}
+
+.review-box {
+    width: 33%;
 }
 
 .border {
