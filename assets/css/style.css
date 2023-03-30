@@ -33,8 +33,7 @@ h3 {
 }
 
 h4 {
-    letter-spacing: 1px;
-    margin: 60px 0 15px;
+    letter-spacing: 2px;
 }
 
 p {
@@ -497,12 +496,13 @@ footer a:hover,
 /* ----- Big Three ----- */
 
 .specialization {
-    height: 700px;
+    height: 750px;
     margin: 100px;
 }
 
 .specialization-content {
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .specialization-content p{
@@ -511,13 +511,34 @@ footer a:hover,
 
 .row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
 .bt-content {
-    width: 60%;
+    width: 80%;
 }
 
+.bt-content h4 {
+    margin-bottom: 15px;
+}
 
+.dif {
+    margin-top: 60px;
+}
+
+.bt.image {
+    width: 20%;
+ }
+
+.background-image {
+    width: 308px;
+    height: 434px;    
+}
+
+.reading-cover {
+    width: 310px;
+    height: 438px;
+    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
+    margin: -394px auto 0 80px;
+}
