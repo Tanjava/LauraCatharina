@@ -203,11 +203,11 @@ hr {
 /* welcome section */
 
 #welcome {
-    min-height: 650px;
+    min-height: auto;
+    margin-top: 100px;
 }
 
 .container {
-    margin-top: 100px;
     display: flex;
 }
 
@@ -239,7 +239,8 @@ hr {
 /*  work together section  */
 
 #work-together {
-    min-height: 700px;
+    min-height: auto;
+    margin-top: 100px;
 }
 
 #left-wt-column {
@@ -277,7 +278,7 @@ hr {
 #location {
     height: 170px;
     text-align: center;
-    margin: 75px 100px 0;
+    margin: 150px 100px 0;
 }
 
 #location hr {
@@ -295,6 +296,7 @@ hr {
 
 #location-content h3 {
     text-transform: none;
+    margin-bottom: 0px;
 }
 
 #location-content p {
@@ -348,32 +350,39 @@ footer a:hover,
 /* ----- about ----- */
 
 #about {
-    min-height: 550px;
-    margin: 0 100px;
+    min-height: auto;
+    margin: 100px;
 }
 
-#left-about-column {
-    width: 35%;
+.intro {
+    text-align: center;
+    margin-bottom: 75px;
 }
 
-#right-about-column {
-    width: 65%;
+.intro p {
+    font-size: 120%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
-#left-about-column div {
-    width: 320px;
-    height: 400px;
-    background-image: url('../images/pink-textured-background.jpg');
-    margin: 50px 50px 50px 0;
+.content-column {
+    width: 80%;
 }
 
-#left-about-column img {
+.pink-background {
+    width: 320px;
+    height: 410px;    
+}
+
+.front-image {
     width: 320px;
     height: 400px;
-    float: left;
-    margin: 30px 30px 0 30px;
-    box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
+    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
+    margin: -410px auto 0 70px;
 }
 
 /* ------ Readings ----- */
@@ -382,18 +391,18 @@ footer a:hover,
     margin: 100px 75px;
 }
 
-.options {
+.container-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
 }
 
-.options div {
+.container-1 div {
     padding: 30px;
 }
 
-.options div p {
+.container-1 div p {
     margin-bottom: 50px;
 }
 
@@ -401,7 +410,7 @@ footer a:hover,
 /* ----- Contact ----- */
 
 #contact {
-    height: 700px;
+    min-height: auto;
     margin: 100px 75px;
 }
 
@@ -415,6 +424,38 @@ footer a:hover,
     flex-direction: row-reverse;
     align-items: center;
 }
+
+#contact-text {
+    width: 50%;
+    padding-right:20px;
+}
+
+#contact-text p {
+    font-size: 100%;
+}
+
+#contact-text p span {
+    font-size: 70%;
+}
+
+#contact-text ul {
+   list-style-type: none; 
+   padding-left: 30px;
+}
+
+#contact-text li {
+    line-height: 2; 
+}
+
+#contact-text li i {
+    font-size: 110%;
+    margin-right: 10px;
+}
+
+.example {
+    padding-top: 20px;
+}
+
 
 .form-section {
     width: 50%;
@@ -461,75 +502,12 @@ footer a:hover,
     margin-top:30px;
 }
 
-#contact-text {
-    width: 50%;
-    padding-right:20px;
-}
+/* ----- Big Three / Career / Birth Chart ----- */
 
-#contact-text p {
-    font-size: 100%;
-}
-
-#contact-text p span {
-    font-size: 70%;
-}
-
-#contact-text ul {
-   list-style-type: none; 
-   padding-left: 30px;
-}
-
-#contact-text li {
-    line-height: 2; 
-}
-
-#contact-text li i {
-    font-size: 110%;
-    margin-right: 10px;
-}
-
-.example {
-    padding-top: 20px;
-}
-
-
-/* ----- Big Three ----- */
-
-.specialization {
-    height: 750px;
+.specific-reading {
+    height: auto;
     margin: 100px;
 }
-
-.specialization-content {
-    text-align: center;
-    margin-bottom: 75px;
-}
-
-.specialization-content p{
-    font-size: 120%;
-}
-
-.row {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.bt-content {
-    width: 80%;
-}
-
-.bt-content h4 {
-    margin-bottom: 15px;
-}
-
-.dif {
-    margin-top: 60px;
-}
-
-.bt.image {
-    width: 20%;
- }
 
 .background-image {
     width: 310px;
@@ -541,4 +519,12 @@ footer a:hover,
     height: 438px;
     box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
     margin: -410px auto 0 70px;
+}
+
+.content-column h4 {
+    margin-bottom: 15px;
+}
+
+.dif {
+    margin-top: 60px;
 }
