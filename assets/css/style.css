@@ -532,13 +532,13 @@ footer a:hover,
  }
 
 .background-image {
-    width: 308px;
-    height: 434px;    
+    width: 310px;
+    height: 440px;    
 }
 
 .reading-cover {
     width: 310px;
     height: 438px;
     box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
-    margin: -394px auto 0 80px;
+    margin: -410px auto 0 70px;
 }
