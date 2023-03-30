@@ -21,15 +21,17 @@ body {
 }
 
 h1,
-h3, h4 {
+h3,
+h4 {
     font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
 }
 
-h2, h3 {
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 140%; 
-    margin-bottom: 30px; 
+    font-size: 140%;
+    margin-bottom: 30px;
 }
 
 h4 {
@@ -269,7 +271,37 @@ hr {
     height: 535px;
     margin: 0 auto 0 -55px;
     box-shadow: 2px 0px 8px 0px rgba(128, 128, 128, 1);
-    ;
+}
+
+/* ----- reviews ----- */
+
+#reviews {
+    min-height: 300px;
+    background-image: url('../images/AestheticShadowWall.png');
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 150px;
+}
+
+.review-row {
+    display: flex;
+    min-height: 300px;
+    padding: 30px 0;
+}
+
+.border {
+    border-right: 1px solid #6d5a4e;
+}
+
+.review-background {
+    background-color: rgb(251, 247, 235, .2);
+    margin: 0 30px;
+    height: 100%
+}
+
+.review-content {
+    text-align: center;
+    padding: 20px;
 }
 
 
@@ -375,13 +407,13 @@ footer a:hover,
 
 .pink-background {
     width: 320px;
-    height: 410px;    
+    height: 410px;
 }
 
 .front-image {
     width: 320px;
     height: 400px;
-    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
+    box-shadow: 2px 2px 8px 0px rgba(128, 128, 128, 1);
     margin: -410px auto 0 70px;
 }
 
@@ -427,7 +459,7 @@ footer a:hover,
 
 #contact-text {
     width: 50%;
-    padding-right:20px;
+    padding-right: 20px;
 }
 
 #contact-text p {
@@ -439,12 +471,12 @@ footer a:hover,
 }
 
 #contact-text ul {
-   list-style-type: none; 
-   padding-left: 30px;
+    list-style-type: none;
+    padding-left: 30px;
 }
 
 #contact-text li {
-    line-height: 2; 
+    line-height: 2;
 }
 
 #contact-text li i {
@@ -463,9 +495,9 @@ footer a:hover,
     text-align: center;
 }
 
- fieldset {
+fieldset {
     border: none;
- }
+}
 
 .text-input,
 #question {
@@ -499,7 +531,7 @@ footer a:hover,
 }
 
 .button {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 /* ----- Big Three / Career / Birth Chart ----- */
@@ -511,13 +543,13 @@ footer a:hover,
 
 .background-image {
     width: 310px;
-    height: 440px;    
+    height: 440px;
 }
 
 .reading-cover {
     width: 310px;
     height: 438px;
-    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
+    box-shadow: 2px 2px 8px 0px rgba(128, 128, 128, 1);
     margin: -410px auto 0 70px;
 }
 
