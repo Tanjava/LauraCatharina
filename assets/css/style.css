@@ -25,7 +25,7 @@ h3, h4 {
     font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
 }
 
-h3 {
+h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 140%; 
