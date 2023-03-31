@@ -715,6 +715,27 @@ fieldset {
         width: 45%
     }
 
+    #contact {
+        margin: 100px 50px;
+    }
+
+    #contact-section {
+        flex-direction: column-reverse
+    }
+
+    #contact-text {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 50px 25px;
+    }
+
+    .button {
+        margin-top: 50px;
+    }
 
 }
 
@@ -747,6 +768,19 @@ fieldset {
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    #contact {
+        margin: 100px 30px;
+    }
+
+    #contact h3 {
+        margin-bottom: 30px;
+    }
+
+    #message {
+        height: 100px;
+    }
+
 }
 
 /* for extra small screen size from 575px wide and down */
@@ -778,8 +812,6 @@ fieldset {
         left: 50px;
     }
 
-
-
     #location {
         margin: 100px 20px 0;
     }
@@ -788,4 +820,11 @@ fieldset {
         width: 35%
     }
 
+    #contact-text p {
+        font-size: 90%;
+    }
+    
+    #contact-text li i {
+        font-size: 100%;
+    }
 }
