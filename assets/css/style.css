@@ -209,11 +209,11 @@ hr {
     margin-top: 100px;
 }
 
-.container {
+.container-1 {
     display: flex;
 }
 
-#left-welcome-column {
+.left-welcome-column {
     width: 40%;
     background-image: url('../images/pink-textured-background.jpg');
     min-height: 650px;
@@ -221,7 +221,7 @@ hr {
     align-items: center;
 }
 
-#left-welcome-column img {
+.left-welcome-column img {
     width: 401px;
     height: 535px;
     float: right;
@@ -229,7 +229,7 @@ hr {
     box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
 }
 
-#right-welcome-column {
+.right-welcome-column {
     width: 60%;
     text-align: center;
     padding: 30px 100px 30px 140px;
@@ -238,7 +238,7 @@ hr {
     justify-content: center;
 }
 
-#right-welcome-column p a {
+.right-welcome-column p a {
     color: #6d5a4e;
     text-decoration: none;
     padding-bottom: 2px;
@@ -251,12 +251,17 @@ hr {
 
 /*  work together section  */
 
+.container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 #work-together {
     min-height: auto;
     margin-top: 100px;
 }
 
-#left-wt-column {
+.left-wt-column {
     width: 60%;
     text-align: center;
     padding: 30px 140px 30px 100px;
@@ -265,11 +270,11 @@ hr {
     justify-content: center;
 }
 
-#left-wt-column a {
+.left-wt-column a {
     margin: 50px auto 0;
 }
 
-#right-wt-column {
+.right-wt-column {
     width: 40%;
     background-image: url(../images/green-textured-background.jpg);
     min-height: 650px;
@@ -277,7 +282,7 @@ hr {
     align-items: center;
 }
 
-#right-wt-column img {
+.right-wt-column img {
     width: 401px;
     height: 535px;
     margin: 0 auto 0 -55px;
@@ -325,7 +330,7 @@ hr {
 }
 
 .review-content p {
-    margin-bottom: 0px;
+    margin: 10px 0 0;
 }
 
 
@@ -446,33 +451,33 @@ footer a:hover,
 
 #readings {
     margin: 100px 75px;
+    height: auto;
 }
 
-.container-1 {
+.readings-row {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
 }
 
-.container-1 div {
+.readings-column {
+    width: 33%;
     padding: 30px;
 }
 
-.container-1 div p {
+.readings-column p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .reading-background {
-    height: 200px;
-    width: 100%;
+    height: 185px;
+    width: 90%;
 }
 
 .cover-image {
-    width: 300px;
-    height: 200px;
-    margin: -170px auto 0;
+    width: 270px;
+    height: 180x;
+    margin: -160px auto 0;
     box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
 }
 
@@ -611,3 +616,91 @@ fieldset {
 .note {
     font-size: 80%;
 }
+
+
+/* ----- media queries ----- */
+
+/* for medium to larger screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {}
+
+
+
+    
+/* for medium screen size from 995px wide and down */
+@media screen and (max-width: 995px) {
+    
+    .container-1 {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+    }
+    
+    .left-welcome-column, .right-wt-column {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .left-welcome-column img, .right-wt-column img {
+        width: 288px;
+        height: 384px;
+        margin: -57px auto;
+        box-shadow: -2px 0px 8px 0px rgba(128,128,128,1);;
+    }
+
+    .right-welcome-column, .left-wt-column {
+        width: 100%;
+        margin-top: 75px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    #reviews {
+        margin-top: 100px;
+    }
+
+    .review-row {
+        flex-direction: column;
+        padding: 0 40px;
+    }
+
+    .review-box {
+        width: 100%;
+    }
+
+    .border {
+        border-right: none;
+        border-bottom: 1px solid #6d5a4e;
+    }
+
+    .review-background {
+        margin: 15px 0;
+    }
+
+    .review-content p {
+        margin: 5px 0 0;
+    }
+
+    #location {
+        margin: 150px 75px 0;
+    }
+
+    #location hr {
+        width: 45%
+    }
+
+    
+}
+
+/* for small screen size from 820px wide and down */
+@media screen and (max-width: 800px) {
+
+}
+
+/* for extra small screen size from 575px wide and down */
+@media screen and (max-width: 575px) {
+
+}
+
