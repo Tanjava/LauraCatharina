@@ -606,7 +606,7 @@ fieldset {
 }
 
 .row-2 {
-    margin-top: 100px;
+    margin: 100px 75px;
     text-align: center;
 }
 
@@ -697,8 +697,8 @@ fieldset {
     .left-wt-column {
         width: 100%;
         margin-top: 75px;
-        padding-left: 75px;
-        padding-right: 75px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     #reviews {
@@ -871,10 +871,23 @@ fieldset {
         font-size: 100%;
     }
 
-
     #cover-text {
         right: 50px;
         left: 50px;
+    }
+
+    #fixed-socials i {
+        font-size: 100%;
+    }
+
+    .right-welcome-column,
+    .left-wt-column {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .review-row {
+        padding: 0 30px;
     }
 
     #location {
@@ -894,7 +907,7 @@ fieldset {
     }
 
     .intro {
-        margin: 100px 50px 50px;
+        margin: 100px 30px 50px;
     }
 
     .intro p {
@@ -902,35 +915,35 @@ fieldset {
     }
 
     .pink-background {
-        width: 140px;
-        height: 175px;
+        width: 275px;
+        height: 340px;
     }
 
     .front-image {
-        width: 140px;
-        height: 175px;
+        width: 264px;
+        height: 330px;
         margin: -410px auto 0 40px;
     }
 
     .content-column {
         margin-top: 50px;
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
     .background-image {
-        width: 124px;
-        height: 175px;
+        width: 255px;
+        height: 355px;
     }
     
     .reading-cover {
-        width: 124px;
-        height: 175px;
+        width: 245px;
+        height: 345px;
         margin: -410px auto 0 40px;
     }
 
-    /* .readings-column p {
-        margin: 0 50px;
-    } */
+    .readings-column p {
+        padding: 0 30px;
+    }
 
     .reading-background {
         width: 100%;
