@@ -77,7 +77,7 @@ hr {
 
 #navbar {
     background-color: #6d5a4e;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -807,6 +807,10 @@ fieldset {
         font-size: 110%;
     }
 
+    #nav-menu li a {
+        margin: 0 15px;
+    }
+
     .left-welcome-column,
     .right-wt-column {
         min-height: 200px;
@@ -869,6 +873,11 @@ fieldset {
 
     p {
         font-size: 100%;
+    }
+
+    #navbar {
+        flex-direction:column;
+        padding: 10px 0;
     }
 
     #cover-text {
