@@ -373,7 +373,7 @@ hr {
 
 footer {
     background-color: #6d5a4e;
-    height: 75px;
+    min-height: 75px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -627,11 +627,11 @@ fieldset {
     .row {
         flex-direction: column;
     }
-    
+
     .image-column {
         margin: 0 300px;
     }
-    
+
     .content-column {
         width: 100%;
         margin: 75px 100px 0;
@@ -644,7 +644,7 @@ fieldset {
 
     .row-2 {
         margin: 30px 50px 0;
-}
+    }
 
 }
 
@@ -735,6 +735,18 @@ fieldset {
         width: 45%
     }
 
+    footer p {
+        font-size: 65%;
+    }
+
+    #footer-socials i {
+        font-size: 140%;
+    }
+
+    #footer-socials li {
+        margin: 0 20px;
+    }
+
     #contact {
         margin: 100px 50px;
     }
@@ -791,7 +803,8 @@ fieldset {
         width: 360px;
         height: 240px;
         margin: -215px auto 0;
-        box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);;
+        box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
+        ;
     }
 }
 
@@ -829,6 +842,18 @@ fieldset {
         padding-right: 50px;
     }
 
+    .review-content h4 {
+        font-size: 90%;
+    }
+
+    #footer-socials li {
+        margin: 0 10px;
+    }
+
+    #location-content h3 {
+        font-size: 120%;
+    }
+
     #contact {
         margin: 100px 30px;
     }
@@ -845,7 +870,7 @@ fieldset {
         width: 284px;
         height: 410px;
     }
-    
+
     .reading-cover {
         width: 284px;
         height: 400px;
@@ -876,7 +901,7 @@ fieldset {
     }
 
     #navbar {
-        flex-direction:column;
+        flex-direction: column;
         padding: 10px 0;
     }
 
@@ -905,6 +930,28 @@ fieldset {
 
     .fi-rs-marker {
         font-size: 180%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #footer-socials {
+        order: -1;
+    }
+
+    footer p {
+        font-size: 50%;
+        margin-bottom: 5px;
+    }
+
+    #footer-socials i {
+        font-size: 130%;
+    }
+
+    #footer-socials li {
+        margin: 0 20px 25px;
     }
 
     #contact-text p {
@@ -943,7 +990,7 @@ fieldset {
         width: 255px;
         height: 355px;
     }
-    
+
     .reading-cover {
         width: 245px;
         height: 345px;
