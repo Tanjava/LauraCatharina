@@ -26,6 +26,10 @@ h4 {
     font-family: 'TAN-MON-CHERI', 'Qeraldin', 'Philosopher', sans-serif;
 }
 
+h1 {
+    font-size: 300%;
+}
+
 h2,
 h3 {
     text-transform: uppercase;
@@ -137,24 +141,23 @@ hr {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    overflow: hidden;
+}
+
+.wrapper {
+    height: 500px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-right: 150px;
 }
 
 #cover-text {
     text-align: center;
     letter-spacing: 4px;
-    top: 270px;
-    right: 150px;
-    position: absolute;
-}
-
-#cover-text h1 {
-    font-size: 300%;
 }
 
 #cover-text h2 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 120%;
     font-weight: normal;
     padding-top: 5px;
 }
@@ -625,10 +628,27 @@ fieldset {
 
 
 
-    
+
 /* for medium screen size from 995px wide and down */
 @media screen and (max-width: 995px) {
+
+    .wrapper {
+        justify-content: center;
+        padding-right: 0;
+    }
     
+    h1 {
+        font-size: 270%;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+
+    #cover-text {
+        right: 80px;
+    }
+
     .container-1 {
         flex-direction: column;
         margin-top: 150px;
@@ -637,20 +657,24 @@ fieldset {
     .container-2 {
         flex-direction: column;
     }
-    
-    .left-welcome-column, .right-wt-column {
+
+    .left-welcome-column,
+    .right-wt-column {
         width: 100%;
         min-height: 300px;
     }
 
-    .left-welcome-column img, .right-wt-column img {
+    .left-welcome-column img,
+    .right-wt-column img {
         width: 288px;
         height: 384px;
         margin: -57px auto;
-        box-shadow: -2px 0px 8px 0px rgba(128,128,128,1);;
+        box-shadow: -2px 0px 8px 0px rgba(128, 128, 128, 1);
+        ;
     }
 
-    .right-welcome-column, .left-wt-column {
+    .right-welcome-column,
+    .left-wt-column {
         width: 100%;
         margin-top: 75px;
         padding-left: 75px;
@@ -691,16 +715,77 @@ fieldset {
         width: 45%
     }
 
-    
+
 }
 
 /* for small screen size from 820px wide and down */
 @media screen and (max-width: 800px) {
 
+
+    h1 {
+        font-size: 220%;
+    }
+
+    h2 {
+        font-size: 110%;
+    }
+
+    .left-welcome-column,
+    .right-wt-column {
+        min-height: 200px;
+    }
+
+    .left-welcome-column img,
+    .right-wt-column img {
+        width: 270px;
+        height: 360px;
+        margin: -49px auto;
+    }
+
+    .right-welcome-column,
+    .left-wt-column {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 /* for extra small screen size from 575px wide and down */
 @media screen and (max-width: 575px) {
 
-}
+    h1 {
+        font-size: 150%;
+    }
 
+    h2 {
+        font-size: 75%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    h4 {
+        font-size: 80%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+    
+
+    #cover-text {
+        right: 50px;
+        left: 50px;
+    }
+
+
+
+    #location {
+        margin: 100px 20px 0;
+    }
+
+    #location hr {
+        width: 35%
+    }
+
+}
