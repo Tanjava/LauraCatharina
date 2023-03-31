@@ -57,7 +57,8 @@ hr {
     border-bottom: 2px solid #92B4A0;
 }
 
-.button {
+.button,
+.typ-button {
     text-decoration: none;
     background-color: transparent;
     color: #6d5a4e;
@@ -68,7 +69,8 @@ hr {
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 
-.button:hover {
+.button:hover,
+.typ-button:hover {
     background-color: #6d5a4e;
     color: #fbf7eb;
 }
@@ -88,11 +90,13 @@ hr {
     width: 80px;
 }
 
-#nav-menu {
+#nav-menu,
+#typ-nav-menu {
     list-style-type: none;
 }
 
-#nav-menu li {
+#nav-menu li,
+#typ-nav-menu li {
     display: inline-block;
     font-size: 110%;
     position: relative;
@@ -106,7 +110,8 @@ hr {
     margin: 0 45px;
 }
 
-#nav-menu li li a {
+#nav-menu li li a,
+#typ-nav-menu li li a {
     font-size: 70%;
     line-height: 35px;
 }
@@ -120,23 +125,24 @@ hr {
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid #e88ea9;
+    border-bottom: 2px solid #e88ea9;
 }
 
-#nav-menu li:hover ul {
+#nav-menu li:hover ul,
+#typ-nav-menu li:hover ul {
     display: flex;
     flex-direction: column;
 }
 
 .active {
-    border-bottom: 1px solid #92b4a0;
+    border-bottom: 2px solid #92b4a0;
 }
 
 
 /* ----- banner ----- */
 
 #banner {
-    height: 500px;
+    min-height: 600px;
     background-image: url('../images/BeigeShadowBanner.png');
     background-size: cover;
     background-position: 50% 50%;
@@ -144,25 +150,25 @@ hr {
 }
 
 .wrapper {
-    height: 500px;
+    min-height: 600px;
     display: flex;
     justify-content: end;
     align-items: center;
     padding-right: 150px;
 }
 
-#cover-text {
+.cover-text {
     text-align: center;
     letter-spacing: 4px;
 }
 
-#cover-text h2 {
+.cover-text h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: normal;
     padding-top: 5px;
 }
 
-#cover-text hr {
+.cover-text hr {
     width: 44%;
     margin-top: 10px;
 }
@@ -175,7 +181,7 @@ hr {
     float: right;
 }
 
-#cover-text i {
+.cover-text i {
     font-size: 150%;
     color: #6d5a4e
 }
@@ -196,7 +202,8 @@ hr {
     font-size: 120%;
 }
 
-#fixed-socials i:hover {
+#fixed-socials i:hover,
+#typ-socials i:hover {
     color: rgba(0, 0, 0, 0.4);
     border-bottom: 2px solid #6d5a4e;
     padding-bottom: 5px;
@@ -386,15 +393,15 @@ footer p {
     margin-bottom: 0px;
 }
 
-#footer-socials i {
-    font-size: 150%;
-}
-
-#footer-socials {
+#footer-socials, #footer-socials-typ {
     list-style-type: none;
 }
 
-#footer-socials li {
+#footer-socials i, #footer-socials-typ i {
+    font-size: 150%;
+}
+
+#footer-socials li, #footer-socials-typ li {
     display: inline-block;
     margin: 0 30px;
 }
@@ -533,7 +540,6 @@ footer a:hover,
     padding-top: 20px;
 }
 
-
 .form-section {
     width: 50%;
     padding: 0 50px;
@@ -619,6 +625,79 @@ fieldset {
 }
 
 
+/* ----- Thank You ----- */
+
+#thankyou {
+    min-height: 100vw;
+    background-image: url('../images/AestheticShadowWall.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.thankyou-wrapper {
+    min-height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.thankyou-wrapper h2 {
+    text-transform: none;
+    font-size: 150%;
+}
+
+#typ-navbar {
+    background-color: transparent;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+#typ-nav-menu li a {
+    color: #6d5a4e;
+    text-decoration: none;
+    line-height: 40px;
+    padding-bottom: 3px;
+    margin: 0 45px;
+}
+
+#typ-nav-menu ul {
+    position: absolute;
+    display: none;
+    background-color: transparent;
+    box-shadow: 0px 8px 8px -4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+}
+
+#typ-nav-menu a:hover {
+    border-bottom: 2px solid #6d5a4e;
+}
+
+.thankyou-wrapper h2 {
+    margin-bottom: 50px;
+}
+
+.lets-connect {
+    margin: 75px 0 10px;
+}
+
+#typ-socials {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#typ-socials i {
+    color: #6d5a4e;
+    font-size: 150%;
+    margin: 0 10px;
+}
+
+
 /* ----- media queries ----- */
 
 /* for medium to larger screen size from 1200px wide and down */
@@ -665,8 +744,16 @@ fieldset {
         font-size: 130%;
     }
 
-    #cover-text {
+    .cover-text {
         right: 80px;
+    }
+
+    .thankyou-wrapper h2 {
+        font-size: 130%;
+    }
+
+    .typ-button {
+        font-size: 110%;
     }
 
     .container-1 {
@@ -739,11 +826,11 @@ fieldset {
         font-size: 65%;
     }
 
-    #footer-socials i {
+    #footer-socials i, #footer-socials-typ i {
         font-size: 140%;
     }
 
-    #footer-socials li {
+    #footer-socials li, #footer-socials-typ li {
         margin: 0 20px;
     }
 
@@ -820,8 +907,17 @@ fieldset {
         font-size: 110%;
     }
 
-    #nav-menu li a {
+    #nav-menu li a,
+    #typ-navbar li a {
         margin: 0 15px;
+    }
+
+    .thankyou-wrapper h2 {
+        font-size: 110%;
+    }
+
+    .typ-button {
+        font-size: 100%;
     }
 
     .left-welcome-column,
@@ -846,7 +942,7 @@ fieldset {
         font-size: 90%;
     }
 
-    #footer-socials li {
+    #footer-socials li, #footer-socials-typ li{
         margin: 0 10px;
     }
 
@@ -900,14 +996,41 @@ fieldset {
         font-size: 100%;
     }
 
-    #navbar {
+    #navbar,
+    #typ-navbar {
         flex-direction: column;
         padding: 10px 0;
     }
 
-    #cover-text {
+    #typ-navbar {
+        margin-bottom: 20px;
+    }
+
+    .cover-text {
         right: 50px;
         left: 50px;
+    }
+
+    .thankyou-wrapper h1 {
+        font-size: 120%;
+    }
+    
+    .thankyou-wrapper h2 {
+        font-size: 60%;
+        margin-bottom: 30px;
+    }
+
+    .typ-button {
+        font-size: 50%;
+    }
+
+    .lets-connect {
+        font-size: 80%;
+        margin-top: 50px;
+    }
+
+    #typ-socials i {
+        font-size: 100%;
     }
 
     #fixed-socials i {
@@ -937,7 +1060,7 @@ fieldset {
         padding: 20px 0;
     }
 
-    #footer-socials {
+    #footer-socials, #footer-socials-typ {
         order: -1;
     }
 
@@ -946,12 +1069,16 @@ fieldset {
         margin-bottom: 5px;
     }
 
-    #footer-socials i {
+    #footer-socials i, #footer-socials-typ i {
         font-size: 130%;
     }
 
-    #footer-socials li {
+    #footer-socials li, #footer-socials-typ li {
         margin: 0 20px 25px;
+    }
+
+    #footer-socials-typ {
+        display: none;
     }
 
     #contact-text p {
