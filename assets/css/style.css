@@ -146,7 +146,7 @@ hr {
 .wrapper {
     height: 500px;
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
     padding-right: 150px;
 }
@@ -415,12 +415,11 @@ footer a:hover,
 
 #about {
     min-height: auto;
-    margin: 100px;
 }
 
 .intro {
     text-align: center;
-    margin-bottom: 75px;
+    margin: 100px 100px 75px;
 }
 
 .intro p {
@@ -435,6 +434,7 @@ footer a:hover,
 
 .content-column {
     width: 80%;
+    margin: 0 100px 0 30px;
 }
 
 .pink-background {
@@ -636,7 +636,7 @@ fieldset {
         justify-content: center;
         padding-right: 0;
     }
-    
+
     h1 {
         font-size: 270%;
     }
@@ -737,6 +737,21 @@ fieldset {
         margin-top: 50px;
     }
 
+    .intro {
+        margin: 100px 50px 75px;
+    }
+
+    .pink-background {
+        width: 320px;
+        height: 410px;
+    }
+
+    .front-image {
+        width: 320px;
+        height: 400px;
+        margin: -410px auto 0 70px;
+    }
+
 }
 
 /* for small screen size from 820px wide and down */
@@ -781,6 +796,20 @@ fieldset {
         height: 100px;
     }
 
+    .row {
+        flex-direction: column;
+    }
+
+    .image-column {
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    .content-column {
+        width: 100%;
+        margin: 75px 100px 0;
+        padding: 0 50px;
+    }
 }
 
 /* for extra small screen size from 575px wide and down */
@@ -805,7 +834,7 @@ fieldset {
     p {
         font-size: 100%;
     }
-    
+
 
     #cover-text {
         right: 50px;
@@ -823,8 +852,32 @@ fieldset {
     #contact-text p {
         font-size: 90%;
     }
-    
+
     #contact-text li i {
         font-size: 100%;
+    }
+
+    .intro {
+        margin: 100px 30px 50px;
+    }
+
+    .intro p {
+        font-size: 110%;
+    }
+
+    .pink-background {
+        width: 140px;
+        height: 175px;
+    }
+
+    .front-image {
+        width: 140px;
+        height: 175px;
+        margin: -410px auto 0 40px;
+    }
+
+    .content-column {
+        margin-top: 50px;
+        padding: 0 30px;
     }
 }
