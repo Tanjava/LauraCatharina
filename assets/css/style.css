@@ -584,7 +584,6 @@ fieldset {
 
 .specific-reading {
     height: auto;
-    margin: 100px;
 }
 
 .background-image {
@@ -623,10 +622,32 @@ fieldset {
 
 /* ----- media queries ----- */
 
-/* for medium to larger screen size from 1200px wide and down */
-@media screen and (max-width: 1200px) {}
+/* for medium to larger screen size from 1100px wide and down */
+@media screen and (max-width: 1100px) {
 
+    .row {
+        flex-direction: column;
+    }
+    
+    .image-column {
+        margin: 0 200px;
+    }
+    
+    .content-column {
+        width: 100%;
+        margin: 75px 100px 0;
+        padding: 0 50px;
+    }
 
+    .intro {
+        margin: 100px 50px 75px;
+    }
+
+    .row-2 {
+        margin: 30px 50px 0;
+}
+
+}
 
 
 /* for medium screen size from 995px wide and down */
@@ -737,10 +758,6 @@ fieldset {
         margin-top: 50px;
     }
 
-    .intro {
-        margin: 100px 50px 75px;
-    }
-
     .pink-background {
         width: 320px;
         height: 410px;
@@ -796,24 +813,19 @@ fieldset {
         height: 100px;
     }
 
-    .row {
-        flex-direction: column;
+    .background-image {
+        width: 284px;
+        height: 410px;
     }
-
-    .image-column {
-        width: 100%;
-        padding: 0 100px;
-    }
-
-    .content-column {
-        width: 100%;
-        margin: 75px 100px 0;
-        padding: 0 50px;
+    
+    .reading-cover {
+        width: 284px;
+        height: 400px;
     }
 }
 
-/* for extra small screen size from 575px wide and down */
-@media screen and (max-width: 575px) {
+/* for extra small screen size from 580px wide and down */
+@media screen and (max-width: 580px) {
 
     h1 {
         font-size: 150%;
@@ -858,7 +870,7 @@ fieldset {
     }
 
     .intro {
-        margin: 100px 30px 50px;
+        margin: 100px 50px 50px;
     }
 
     .intro p {
@@ -878,6 +890,17 @@ fieldset {
 
     .content-column {
         margin-top: 50px;
-        padding: 0 30px;
+        padding: 0 50px;
+    }
+
+    .background-image {
+        width: 124px;
+        height: 175px;
+    }
+    
+    .reading-cover {
+        width: 124px;
+        height: 175px;
+        margin: -410px auto 0 40px;
     }
 }
