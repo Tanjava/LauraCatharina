@@ -221,6 +221,14 @@ hr {
     align-items: center;
 }
 
+#left-welcome-column img {
+    width: 401px;
+    height: 535px;
+    float: right;
+    margin: 0 -55px 0 auto;
+    box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
+}
+
 #right-welcome-column {
     width: 60%;
     text-align: center;
@@ -230,12 +238,15 @@ hr {
     justify-content: center;
 }
 
-#left-welcome-column img {
-    width: 401px;
-    height: 535px;
-    float: right;
-    margin: 0 -55px 0 auto;
-    box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);
+#right-welcome-column p a {
+    color: #6d5a4e;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.right-welcome-column a:hover,
+.underline:hover {
+    border-bottom: 2px solid #e88ea9;
 }
 
 /*  work together section  */
@@ -380,8 +391,7 @@ footer p {
     margin: 0 30px;
 }
 
-footer a,
-.underline {
+footer a {
     color: #fbf7eb;
     text-decoration: none;
     padding-bottom: 5px;
