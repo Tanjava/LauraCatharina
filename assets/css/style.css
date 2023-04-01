@@ -138,6 +138,11 @@ hr {
     border-bottom: 2px solid #92b4a0;
 }
 
+.clickable {
+    color: #fbf7eb;
+    display: none;
+}
+
 
 /* ----- banner ----- */
 
@@ -1033,7 +1038,8 @@ fieldset {
         font-size: 60%;
     }
 
-    #nav-menu li a, #typ-nav-menu li a {
+    #nav-menu li a,
+    #typ-nav-menu li a {
         margin: 0 10px;
     }
 
@@ -1171,4 +1177,26 @@ fieldset {
         width: 250px;
         height: 150px;
     }
+
+    #nav-menu li,
+    #typ-nav-menu li {
+        padding: 0 5px;
+    }
+
+    #nav-menu li a,
+    #typ-nav-menu li a {
+        margin: 0;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .clickable {
+        display: unset;
+    }
+
+   .clickable a {
+    padding-left: 7px;
+   }
 }
