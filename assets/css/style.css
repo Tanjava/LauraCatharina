@@ -99,7 +99,7 @@ hr {
 #nav-menu li,
 #typ-nav-menu li {
     display: inline-block;
-    font-size: 110%;
+    font-size: 120%;
     position: relative;
 }
 
@@ -113,7 +113,7 @@ hr {
 
 #nav-menu li li a,
 #typ-nav-menu li li a {
-    font-size: 70%;
+    font-size: 65%;
     line-height: 35px;
 }
 
@@ -153,7 +153,7 @@ hr {
 /* ----- banner ----- */
 
 #banner {
-    min-height: 600px;
+    height: 600px;
     background-image: url('../images/BeigeShadowBanner.png');
     background-size: cover;
     background-position: 50% 50%;
@@ -161,7 +161,7 @@ hr {
 }
 
 .wrapper {
-    min-height: 600px;
+    height: 600px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -641,26 +641,6 @@ fieldset {
 
 /* ----- Thank You ----- */
 
-#thankyou {
-    min-height: 100vw;
-    background-image: url('../images/AestheticShadowWall.png');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-}
-
-.thankyou-wrapper {
-    min-height: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-}
-
-.thankyou-wrapper h2 {
-    text-transform: none;
-    font-size: 150%;
-}
-
 #typ-navbar {
     background-color: transparent;
     min-height: 100px;
@@ -689,6 +669,26 @@ fieldset {
 
 #typ-nav-menu a:hover {
     border-bottom: 2px solid #6d5a4e;
+}
+
+#thankyou {
+    min-height: 100vw;
+    background-image: url('../images/AestheticShadowWall.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.thankyou-wrapper {
+    min-height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.thankyou-wrapper h2 {
+    text-transform: none;
+    font-size: 150%;
 }
 
 .thankyou-wrapper h2 {
@@ -1036,14 +1036,18 @@ fieldset {
         font-size: 100%;
     }
 
+    .button {
+        font-size: 100%;
+    }
+
     #logo {
-        width: 50px;
+        width: 45px;
     }
 
     #navbar,
     #typ-navbar {
         flex-direction: column;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     #typ-navbar {
@@ -1052,12 +1056,25 @@ fieldset {
 
     #nav-menu li,
     #typ-nav-menu li {
-        font-size: 60%;
+        font-size: 45%;
     }
 
     #nav-menu li a,
     #typ-nav-menu li a {
+        line-height: 30px;
         margin: 0 8px;
+    }
+
+    #nav-menu li:hover ul,
+    #typ-nav-menu li:hover ul {
+        flex-direction: row;
+        width: 200px !important;
+    }
+
+    #nav-menu li li a,
+    #typ-nav-menu li li a {
+        font-size: 60%;
+        line-height: 10px;
     }
 
     .hide-mobile {
@@ -1078,6 +1095,7 @@ fieldset {
 
     summary {
         display: block;
+        list-style-type: none;
         padding-right: 10px;
     }
 
@@ -1086,13 +1104,12 @@ fieldset {
         content: '⏷';
     }
 
-    .banner {
-        min-height:300px;
+    #banner {
+        height: 400px;
     }
 
-    .cover-text {
-        right: 50px;
-        left: 50px;
+    .wrapper {
+        height: 400px;
     }
 
     .cover-text i {
@@ -1117,12 +1134,30 @@ fieldset {
         padding: 0 30px;
     }
 
+    .review-content h4 {
+        font-size: 80%;
+    }
+
+    .review-content p {
+        font-size: 90%;
+    }
+
     #location {
+        height: 150px;
         margin: 100px 20px 0;
+
+    }
+
+    #location-content h3 {
+        font-size: 100%;
+    }
+
+    #location-content p {
+        font-size: 80%;
     }
 
     .fi-rs-marker {
-        font-size: 180%;
+        font-size: 150%;
     }
 
     footer {
