@@ -30,13 +30,24 @@
     <header>
         <nav id="navbar">
             <div>
-                <a href="index.html"><img src="assets/images/LC-Logo_beige.png" id="logo" alt="LC initials logo in beige"></a>
+                <a href="index.html"><img src="assets/images/LC-Logo_beige.png" id="logo"
+                        alt="LC initials logo in beige"></a>
             </div>
 
             <ul id="nav-menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="readings.html" class="active">Readings</a>
+                <li>
+                    <details class="clickable">
+                        <summary><a href="readings.html">Readings</a></summary>
+                        <ul>
+                            <li><a href="big-three-reading.html">Big Three</a></li>
+                            <li><a href="career-reading.html">Career</a></li>
+                            <li><a href="birth-chart-reading.html">Birth Chart</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a class="hide-mobile" href="readings.html">Readings</a>
                     <ul>
                         <li><a href="big-three-reading.html">Big Three</a></li>
                         <li><a href="career-reading.html">Career</a></li>

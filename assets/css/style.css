@@ -143,6 +143,11 @@ hr {
     display: none;
 }
 
+.typ-clickable {
+    color: #6d5a4e;
+    display: none;
+}
+
 
 /* ----- banner ----- */
 
@@ -921,13 +926,20 @@ fieldset {
         min-height: 75px;
     }
 
+
     #logo {
         width: 65px;
     }
 
-    #nav-menu li a,
+    #navbar li a,
     #typ-navbar li a {
         margin: 0 15px;
+    }
+
+
+    #nav-menu li,
+    #typ-nav-menu li {
+        font-size: 90%;
     }
 
     .thankyou-wrapper h2 {
@@ -1040,7 +1052,33 @@ fieldset {
 
     #nav-menu li a,
     #typ-nav-menu li a {
-        margin: 0 10px;
+        margin: 0 8px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .clickable {
+        display: unset;
+    }
+
+    .typ-clickable {
+        display: unset;
+    }
+
+    .clickable a {
+        padding-left: 7px;
+    }
+
+    summary {
+        display: block;
+        padding-right: 10px;
+    }
+
+    summary::after {
+        display: inline-block;
+        content: '⏷';
     }
 
     .cover-text {
@@ -1048,30 +1086,16 @@ fieldset {
         left: 50px;
     }
 
+    .cover-text i {
+        font-size: 100%;
+    }
+
     .thankyou-wrapper h1 {
         font-size: 120%;
     }
 
-    .thankyou-wrapper h2 {
-        font-size: 60%;
-        margin-bottom: 30px;
-    }
-
-    .typ-button {
-        font-size: 50%;
-    }
-
-    .lets-connect {
-        font-size: 80%;
-        margin-top: 50px;
-    }
-
-    #typ-socials i {
-        font-size: 100%;
-    }
-
     #fixed-socials i {
-        font-size: 100%;
+        visibility: hidden;
     }
 
     .right-welcome-column,
@@ -1178,25 +1202,22 @@ fieldset {
         height: 150px;
     }
 
-    #nav-menu li,
-    #typ-nav-menu li {
-        padding: 0 5px;
+    .thankyou-wrapper h2 {
+        font-size: 60%;
+        margin-bottom: 30px;
     }
 
-    #nav-menu li a,
-    #typ-nav-menu li a {
-        margin: 0;
+    .typ-button {
+        font-size: 50%;
     }
 
-    .hide-mobile {
-        display: none;
+    .lets-connect {
+        font-size: 80%;
+        margin-top: 50px;
     }
 
-    .clickable {
-        display: unset;
+    #typ-socials i {
+        font-size: 100%;
     }
 
-   .clickable a {
-    padding-left: 7px;
-   }
 }
