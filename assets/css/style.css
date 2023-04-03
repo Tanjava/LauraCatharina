@@ -200,7 +200,7 @@ hr {
 
 /* ----- fixed/sticky social media sidebar ----- */
 
-#fixed-socials {
+#fixed-socials ul {
     position: fixed;
     top: 39%;
     left: 0.85%;
@@ -577,6 +577,12 @@ fieldset {
     border-bottom: 2px solid #92B4A0;
 }
 
+.text-input:focus,
+#question:focus,
+#message:focus {
+    outline: none;
+}
+
 #fname {
     width: 45%;
     float: left;
@@ -591,7 +597,7 @@ fieldset {
     height: 150px;
 }
 
-.text-input:hover {
+.text-input:hover, #question:hover {
     border-color: #E88EA9;
 }
 
@@ -1056,19 +1062,20 @@ fieldset {
 
     #nav-menu li,
     #typ-nav-menu li {
-        font-size: 45%;
+        font-size: 55%;
     }
 
     #nav-menu li a,
     #typ-nav-menu li a {
         line-height: 30px;
+        padding-bottom: 1px;
         margin: 0 8px;
     }
 
     #nav-menu li:hover ul,
     #typ-nav-menu li:hover ul {
         flex-direction: row;
-        width: 200px !important;
+        width: 177px !important;
     }
 
     #nav-menu li li a,
@@ -1089,14 +1096,13 @@ fieldset {
         display: unset;
     }
 
-    .clickable a {
-        padding-left: 7px;
+    summary {
+        list-style: none;
     }
 
-    summary {
-        display: block;
-        list-style-type: none;
-        padding-right: 10px;
+    summary::marker,
+    summary::-webkit-details-marker {
+        display: none;
     }
 
     summary::after {
@@ -1175,6 +1181,10 @@ fieldset {
         margin-bottom: 5px;
     }
 
+    footer a {
+        padding-bottom: 0px;
+    }
+
     #footer-socials i,
     #footer-socials-typ i {
         font-size: 130%;
@@ -1182,15 +1192,29 @@ fieldset {
 
     #footer-socials li,
     #footer-socials-typ li {
-        margin: 0 20px 25px;
+        margin: 0 20px 20px;
+    }
+
+    #footer-socials li,
+    #footer-socials-typ li {
+        margin: 0 20px 20px;
+    }
+
+    #footer-socials li a,
+    #footer-socials-typ li a {
+        padding-bottom: 2px;
     }
 
     #footer-socials-typ {
         display: none;
     }
 
-    #contact-text p {
-        font-size: 90%;
+    #contact-text ul {
+        padding-left: 0px;
+    }
+
+    #contact-text li {
+        font-size: 95%;
     }
 
     #contact-text li i {
