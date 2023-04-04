@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Quicksand:wght@300;400&display=swap');
+
 @font-face {
     font-family: 'TAN-MON-CHERI';
     src: url('../fonts/tan-mon-cheri/TAN\ -\ MON\ CHERI.woff');
     src: url('../fonts/tan-mon-cheri/TAN\ -\ MON\ CHERI.woff2');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Quicksand:wght@300;400&display=swap');
 
 
 * {
@@ -647,7 +647,7 @@ fieldset {
 }
 
 
-/* ----- Thank You ----- */
+/* ----- thank you ----- */
 
 #typ-navbar {
     background-color: transparent;
@@ -717,6 +717,10 @@ fieldset {
     color: #6d5a4e;
     font-size: 150%;
     margin: 0 10px;
+}
+
+.typ-button {
+    letter-spacing: 2px;
 }
 
 
@@ -1067,7 +1071,7 @@ fieldset {
     #nav-menu li:hover ul,
     #typ-nav-menu li:hover ul {
         flex-direction: row;
-        width: 170px !important;
+        width: 320px !important;
     }
 
     #nav-menu li li a,
