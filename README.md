@@ -1,6 +1,6 @@
 # Laura Catharina - Astrology, Spirituality and Wellness
 
-![Am I Responsive Image](assets/readme-images/LC-am-i-responsive.jpg)
+![Am I Responsive Image](assets/readme-images/LC-am-i-responsive.png)
 
 My friend Laura Catharina is a certified astrologist and she inspired me to develop this personal website that focuses on astrology, spirituality and wellness, and where people can request the personalized astrology readings that she offers.
 
