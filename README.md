@@ -1,108 +1,265 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Laura Catharina - Astrology, Spirituality and Wellness
 
-Welcome Tanjava,
+![Am I Responsive Image](assets/readme-images/LC-am-i-responsive.jpg)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+My friend Laura Catharina is a certified astrologist and she inspired me to develop this personal website that focuses on astrology, spirituality and wellness, and where people can request the personalized astrology readings that she offers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The live link for the site can be found here - https://tanjava.github.io/Laura-Catharina/index.html
 
-## Gitpod Reminders
+# Table of contents
+- [Design](#design)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Images](#images)    
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Languages Used](#languages-used)
+    - [Navigation](#navigation)
+    - [Website banner](#website-banner)
+    - [Home Page](#home-page)
+    - [Location](#location)
+    - [Footer](#footer)
+    - [About](#about)
+    - [Readings](#readings)
+      - [Big Three](#big-three--career--birth-chart)
+      - [Career](#big-three--career--birth-chart)
+      - [Birth Chart](#big-three--career--birth-chart)
+    - [Contact](#contact)
+  - [Future Features](#future-features)
+- [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+  - [Unfixed Bugs](#unfixed-bugs)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Design
 
-`python3 -m http.server`
+The design for the website was based on this mood board.
 
-A blue button should appear to click: _Make Public_,
+<img moodboard src="https://tinyurl.com/bdz6ev6y" width="350">
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Color Scheme
 
-A blue button should appear to click: _Make Public_,
+Based on the mood board, the following colors were chosen to capture the feel and style of the website:
 
-Another blue button should appear to click: _Open Browser_.
+![Color palette](assets/readme-images/LC-color-palette.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Typography
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Tan Mon Cheri is a sans-serif font that has an overall light and airy feel, whereas Quicksand is a simple and clean sans-serif font. The combination of these fonts gives a minimal, clean, elegant and modern look to the site and the special dot above the lowercase letter ‘i’ of the Tan Mon Cheri font subtlety ties in with the astrology theme of the website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## Images
 
-## Release History
+The main colors of the website are brown and beige to create an overall calm and natural feel. The images add the pop of pink and green color. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Existing Features:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+This is a seven page website with a Thank You page. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Languages Used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- HTML5
+- CSS3
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Navigation
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The navigation bar is fixed on top for easy navigation between the pages. It has a logo on the left and a main menu with four buttons (one per page) and a submenu with three buttons (one per page) on the right. The navigation bar adjusts in size as the screen size decreases. On very small screen sizes the logo positions on top of the main menu.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Logo and Navigation Bar](assets/readme-images/LC-header.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Website banner
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Under the header the website has a banner.  The text over the Hero Image, 'Buddha - Dharma - Sangha', has been added to break up the image and has been included to improve the design. 'Buddha - Dharma - Sangha' are the Three Jewels of Buddhism and are an important part of the teachings.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Website banner](assets/readme-images/LC-hero-image.png)
 
-------
+### Fixed Social Media Sidebar
 
-## FAQ about the uptime script
+A social media sidebar is positioned on the left hand side of the page with a fixed position, meaning that when the user scrolls the page, the sidebar will remain in the same position. This serves as a quick and easy way for users to:
+- get in touch with the website owner by clicking on the email icon and;
+- connect with the website on other platforms by clicking the Instagram/TikTok icon, increasing the reach of the website’s content and potentially driving more traffic to the website. 
 
-**Why have you added this script?**
+This feature is hidden on devices of 580px wide and down.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### Home Page
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+This page is the first page users will see. It has a 'Welcome' and a 'Work With Me' section, and is designed to capture their attention and encourage themn to explore the website further.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Welcome
 
-**So….?**
+This section welcomes the user and gives a short introduction about the website owner and the website itself. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Welcome!](assets/readme-images/LC-welcome.png)
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Work with me
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+This section provides information about the services offered and invites the user to work with the website owner. The ‘go on a self-discovery journey’ button redirects the user to the Readings page where the different readings are offered with a brief description of each.  
 
-**Anything more?**
+![Work with me](assets/readme-images/LC-work-with-me.png)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+#### Reviews
 
-Happy coding!
+This section shows testimonials from users, highlighting their positive experiences working with the website owner and the readings received. This adds credibility to the website and helps others feel confident in working with the website owner and the readings they’ll receive.
+
+The reviews are shown on the home page as well as the general readings page and individual readings pages (Big Three, Career and Birth Chart).
+
+![Reviews](assets/readme-images/LC-reviews.png)
+
+
+### Location
+
+The location section was added to the website to inform people of the geographic location where the website owner is based.
+
+![Location](assets/readme-images/LC-location.png)
+
+
+### Footer
+
+The footer contains copyright information on the left, thee social links (email, Instagram and tiktok) in the center and a web design reference on the right. 
+
+![Footer](assets/readme-images/LC-footer.png)
+
+
+### About
+
+The about page tells visitors the story of the website owner. Here, They can learn more about her and be inspired to work with her.
+
+![About](assets/readme-images/LC-about.png)
+
+### Readings
+
+This page provides summarized information of the readings that are offered, allowing users to choose which reading is best suited for them depending on what they're seeking answers about. The 'Read more' button redirects the users to the specific reading page, where they can learn more about that reading and all that it entails. 
+
+![Readings](assets/readme-images/LC-readings.png)
+
+
+#### Big Three / Career / Birth Chart
+
+The Big Three reading page, Career reading page & Birth Chart reading page provide more detailed information about each specific reading. This information includes:
+- reading summary
+- who the specific reading is for,
+- why users should choose that specific reading
+- what the users will receive
+- what information the website owner needs from the user
+
+![Readings](assets/readme-images/LC-big-three.png)
+![Readings](assets/readme-images/LC-career.png)
+![Readings](assets/readme-images/LC-birth-chart.png)
+
+
+### Contact 
+
+On this page the user can fill out a form to get in contact with the website owner to request a reading or more information or to just reach out with any questions/concerns or collaboration possibilities.
+
+![Contact form](assets/readme-images/LC-contact.png)
+
+After filling in the form on the Contact page the user will be redirected to a 'Thank You' page and receive confirmation that their information has been submitted and the website owner will get back in touch with them.
+
+![Thank you](assets/readme-images/LC-thank-you.png)
+
+## Future Features
+
+- Blog page - for everyone’s weekly dose of astrology, spirituality and wellness, and to interact with customers and build relationships.
+
+- Shopping Cart feature – for users to purchase the personalized astrology readings directly through the website 
+
+
+# Testing
+
+Testing of the website has been conducted on a laptop using GOogle Chrome and Microsoft Edge, and mobile using Safari and Android. Google DevTools was used to test different devices and screen resolutions. 
+
+Navigation, all of the links and the contact form  function as expected.
+
+When I first ran my code through the W3C HTML and CSS validators some sections failed and required some minor changes. 
+
+
+## Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
+
+![W3C HTML Validator](assets/readme-images/LC-html-checker.png)
+
+- CSS
+  - No errors were found when passing through the official ([Jigsaw](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)) validator:
+
+![W3C CSS Validator](assets/readme-images/LC-css-checker.png)
+
+- Lighthouse (Accessibility Audit)
+
+![Lighthouse Accessibility Audit](assets/readme-images/LC-lighthouse-checker.png)
+
+NB: Although the above screenshots show the results of the home page, the results are the same on every other page of the website.
+
+
+## Unfixed Bugs
+
+Initially, when using the site on mobile resolution, the hoverable navigation of the Readings, and it's submenu, couldn't be accessed as the dropdown menu briefly appeared when clicking on Readings, but the navigation then immediatly reloaded and disappeared. The user would have to click Readings, hold it and then drag down to the submenu for the readings button and submenu buttons to be accessible. 
+
+To fix this when using the site on mobile resolution, I created a clickable dropdown menu with a down arrow symbol. It still doesn't work perfectly as the user now has to click the precise down arrow target area in order to be able to use the submenu, but at least the readings button and submenu buttons are accessible this way. In case the user does not click the precise down arrow target area, they will be led to the Readings page and can always navigate to the specific readings from there. 
+
+
+## Frameworks, Libraries and Programs Used
+
+- Github: Store Repository
+- Gitpod: Create HTML and CSS files
+- Google Fonts: 
+  - Font-family 'Quicksand'
+- Font Awesome & Favicon
+  - For cover text icons, location icon and Social Media icons
+- Am I Responsive
+  - Screenshots of the final project on all devices
+
+
+# Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+
+  1. In the GitHub repository, navigate to the Settings tab. 
+  2. From the settings tab, select the 'Pages' tab in the 'Code and Automation' section.
+  3. In the source section, select 'Deploy from a brach' and in the branch section, select 'Main'.
+  4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link for the site can be found here - https://tanjava.github.io/Laura-Catharina/index.html
+
+
+# Credits
+
+Special thanks to Laura Catharina for inspiring me to make this personal website as my first project for this course.
+
+I also want to thank the Code Institute Slack community for their support, and my mentor Martina for her time and guidance, I really appreciate it! 
+
+
+Some usefull sites that really helped me throughout my project: 
+- https://stackoverflow.com
+- https://www.w3schools.com/
+
+
+## Content
+
+All of the content for the Home, About, Readings (main), Big Three reading, Career reading and Birth Chart reading pages was written by Laura Catharina herself.
+
+
+## Media
+
+Images:
+- Reading covers - created by Laura Catharina using [Canva](http://www.canva.com)
+- Green / pink / brown image – Image by [rawpixel.com on Freepik](https://www.freepik.com/free-photo/plain-green-paper-textured_11307163.htm#query=green%20paper%20texture&position=0&from_view=keyword&track=ais) & edited to different colors.
+- Shadow Leaf Minimalism Backdrop – Image by [jcsmilly on depositphotos](https://depositphotos.com/557980572/stock-photo-shdow-palm-leaf-textured-minimalism.html)
+- Shadow of Leaves on White Background (review section) – Image by [Anna Tarazevich on Pexels]( https://www.pexels.com/photo/shadow-of-leaves-on-white-background-6486618/)
