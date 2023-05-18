@@ -4,7 +4,7 @@
 
 My friend Laura Catharina is a certified astrologist and she inspired me to develop this personal website that focuses on astrology, spirituality and wellness, and where people can request the personalized astrology readings that she offers.
 
-The live link for the site can be found here - https://tanjava.github.io/Laura-Catharina/index.html
+The live link for the site can be found here - https://tanjava.github.io/LauraCatharina/
 
 # Table of contents
 - [Design](#design)
@@ -224,7 +224,7 @@ To fix this when using the site on mobile resolution, I created a clickable drop
 - Font Awesome & Favicon
   - For cover text icons, location icon and Social Media icons
 - Am I Responsive
-  - Screenshots of the final project on all devices
+  - Screenshot of the final project on all devices
 
 
 # Deployment
@@ -234,9 +234,9 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   1. In the GitHub repository, navigate to the Settings tab. 
   2. From the settings tab, select the 'Pages' tab in the 'Code and Automation' section.
   3. In the source section, select 'Deploy from a brach' and in the branch section, select 'Main' and click 'Save'.
-  4. The page will update and show "Your site is ready to be published at https://username.github.io/repository-name/", indicating a successful deployment. 
+  4. The page will update and show "Your site is live at https://username.github.io/repository-name/", indicating a successful deployment. 
 
-The live link for the site can be found here - https://tanjava.github.io/Laura-Catharina/index.html
+The live link for the site can be found here - https://tanjava.github.io/LauraCatharina/
 
 
 # Credits
@@ -246,7 +246,7 @@ Special thanks to Laura Catharina for inspiring me to make this personal website
 I also want to thank the Code Institute Slack community for their support, and my mentor Martina for her time and guidance, I really appreciate it! 
 
 
-Some usefull sites that really helped me throughout my project: 
+Some usefull sites that really helped me throughout this project: 
 - https://stackoverflow.com
 - https://www.w3schools.com/
 
