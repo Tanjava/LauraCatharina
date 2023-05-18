@@ -81,7 +81,7 @@ The navigation bar is fixed on top for easy navigation between the pages. It has
 
 ### Website banner
 
-Under the header the website has a banner.  The text over the Hero Image, 'Buddha - Dharma - Sangha', has been added to break up the image and has been included to improve the design. 'Buddha - Dharma - Sangha' are the Three Jewels of Buddhism and are an important part of the teachings.
+Under the header the website has a banner. The banner image has a different cover text for every page. It has a page title, a little icon to match the page and a three keyword description of that page.
 
 ![Website banner](assets/readme-images/LC-hero-image.png)
 
@@ -184,7 +184,7 @@ After filling in the form on the Contact page the user will be redirected to a '
 
 Testing of the website has been conducted on a laptop using GOogle Chrome and Microsoft Edge, and mobile using Safari and Android. Google DevTools was used to test different devices and screen resolutions. 
 
-Navigation, all of the links and the contact form  function as expected.
+Navigation, all of the links and the contact form function as expected.
 
 When I first ran my code through the W3C HTML and CSS validators some sections failed and required some minor changes. 
 

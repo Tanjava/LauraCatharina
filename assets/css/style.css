@@ -1097,7 +1097,7 @@ fieldset {
         list-style: none;
     }
 
-    summary::marker {
+    summary::marker, summary::-webkit-details-marker{
         display: none;
     }
 
