@@ -233,8 +233,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
   1. In the GitHub repository, navigate to the Settings tab. 
   2. From the settings tab, select the 'Pages' tab in the 'Code and Automation' section.
-  3. In the source section, select 'Deploy from a brach' and in the branch section, select 'Main'.
-  4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  3. In the source section, select 'Deploy from a brach' and in the branch section, select 'Main' and click 'Save'.
+  4. The page will update and show "Your site is ready to be published at https://username.github.io/repository-name/", indicating a successful deployment. 
 
 The live link for the site can be found here - https://tanjava.github.io/Laura-Catharina/index.html
 
