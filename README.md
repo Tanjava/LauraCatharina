@@ -39,7 +39,7 @@ The live link for the site can be found here - https://tanjava.github.io/LauraCa
 
 The design for the website was based on this mood board.
 
-<img src="https://tinyurl.com/bdz6ev6y" alt="moodboard" style="width:350">
+<img src="https://tinyurl.com/bdz6ev6y" alt="moodboard" style="width:350px">
 
 
 ## Color Scheme
