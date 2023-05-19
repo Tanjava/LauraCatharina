@@ -39,7 +39,7 @@ The live link for the site can be found here - https://tanjava.github.io/LauraCa
 
 The design for the website was based on this mood board.
 
-<img moodboard src="https://tinyurl.com/bdz6ev6y" width="350">
+<img src="https://tinyurl.com/bdz6ev6y" alt="moodboard" style="width:350">
 
 
 ## Color Scheme
@@ -192,12 +192,12 @@ When I first ran my code through the W3C HTML and CSS validators some sections f
 ## Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftanjava.github.io%2FLauraCatharina)
 
 ![W3C HTML Validator](assets/readme-images/LC-html-checker.png)
 
 - CSS
-  - No errors were found when passing through the official ([Jigsaw](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)) validator:
+  - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftanjava.github.io%2FLauraCatharina%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en):
 
 ![W3C CSS Validator](assets/readme-images/LC-css-checker.png)
 
@@ -205,7 +205,7 @@ When I first ran my code through the W3C HTML and CSS validators some sections f
 
 ![Lighthouse Accessibility Audit](assets/readme-images/LC-lighthouse-checker.png)
 
-NB: Although the above screenshots show the results of the home page, the results are the same on every other page of the website.
+NB: Although the above screenshots show the results of the home page, the results are the same for every other page of the website.
 
 
 ## Unfixed Bugs
